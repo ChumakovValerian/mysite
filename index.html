@@ -1,11 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Hello world</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Resume</title>
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="wrapper">
+      <!-- sidebar -->
+      <aside class="sidebar">
+        <img class="photo" src="images/photo.jpg" alt="My photo" />
+
+        <!-- contacts -->
+        <div class="contacts-container">
+          <h3 class="contacts-title">Contacts</h3>
+          <div>
+            <span class="contacts-link-type">C:</span>
+            <a class="contacts-link" href="tel:0951138598">+38 095 113 85 98</a>
+          </div>
+          <div>
+            <span class="contacts-link-type">E:</span>
+            <a class="contacts-link" href="chornyiav@gmail.com"
+              >chornyiav@gmail.com</a
+            >
+          </div>
+        </div>
+
+        <!-- tech skills -->
+        <div class="skills-container">
+          <h3 class="skills-title">Tech skills</h3>
+          <div class="skills-items">
+            <ul>
+              <li><span class="skills-text">HTML5</span></li>
+              <li><span class="skills-text">CSS3</span></li>
+              <li><span class="skills-text">GIT</span></li>
+              <li><span class="skills-text">WebPack</span></li>
+              <li><span class="skills-text">JavaScript</span></li>
+              <li><span class="skills-text">React.js</span></li>
+              <li><span class="skills-text">Node.js</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Soft Slills -->
+        <div class="skills-container">
+          <h3 class="skills-title">Soft Skills</h3>
+          <div class="skills-items">
+            <ul>
+              <li><span class="skills-text">Scrum</span></li>
+              <li><span class="skills-text">Agile</span></li>
+              <li><span class="skills-text">GTD</span></li>
+              <li><span class="skills-text">Teamwork</span></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <!-- about me -->
+      <div class="about">
+        <div>
+          <h2 class="profession">Front-end Developer</h2>
+          <h1 class="name">Anton Chornyi</h1>
+
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
+          </p>
+        </div>
+
+        <!-- projects -->
+        <div class="projects">
+          <h3 class="about-me-title">Projects</h3>
+          <ol>
+            <li>
+              <a class="projects-text" href="https://lovecamp.goit.ua/"
+                >lovecamp.goit.ua</a
+              >
+              <span class="projects-text">................</span>
+              [<span class="projects-text"> HTML5, CSS3 </span>]
+            </li>
+            <li>
+              <a class="projects-text" href="https://cryptohub.goit.ua/"
+                >cryptohub.goit.ua</a
+              >
+              <span class="projects-text">...............</span>
+              [<span class="projects-text"> JavaScript </span>]
+            </li>
+            <li>
+              <a class="projects-text" href="https://kidslike.goit.co.ua/"
+                >kidslike.goit.co.ua</a
+              >
+              <span class="projects-text">..............</span>
+              [<span class="projects-text"> React.js, Node.js </span>]
+            </li>
+          </ol>
+        </div>
+
+        <!-- work experience -->
+        <div>
+          <h3 class="about-me-title">Work Experience</h3>
+
+          <!-- company 1 -->
+          <div>
+            <h4 class="mini-title">
+              Front-End Developer <span class="company-name">Freelance</span>
+            </h4>
+            <span class="duration"
+              >September 2019 - up to now
+              <span class="divider">|</span> Ukraine</span
+            >
+            <ul class="duties">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li>
+                Risus commodo viverra maecenas.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </li>
+            </ul>
+          </div>
+
+          <!-- company 2 -->
+          <div>
+            <h4 class="mini-title">
+              Manager <span class="company-name">Roga & Kopyta New</span>
+            </h4>
+            <span class="duration"
+              >March 2015 - October 2018
+              <span class="divider">|</span> Ukraine</span
+            >
+            <ul class="duties">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod labore et dolore magna aliqua.
+              </li>
+              <li>
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li>
+                Risus commodo viverra maecenas.
+              </li>
+            </ul>
+          </div>
+
+          <!-- company 3 -->
+          <div>
+            <h4 class="mini-title">
+              Manager <span class="company-name">Roga & Kopyta LLC</span>
+            </h4>
+            <span class="duration"
+              >June 2014 - February 2015
+              <span class="divider">|</span> Ukraine</span
+            >
+            <ul class="duties">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li>
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li>
+                Risus commodo viverra maecenas.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div>
+          <h3 class="about-me-title">Education</h3>
+          <h4 class="mini-title">
+            <span class="company-name"
+              >Kharkiv National University of Radioelectronics</span
+            >
+          </h4>
+          <h5 class="specialty">Management</h5>
+          <span class="duration"
+            >Septermber 2009 - June 2014
+            <span class="divider">|</span> Ukraine</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

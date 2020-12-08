@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  background-color: #fff;
+  display: flex;
+  width: 1200px;
+  line-height: 24px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  background-color: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contacts-container {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contacts-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.contacts-link {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contacts-link-type {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+}
+
+.skills-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+
+.skills-title {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.skills-items {
+  color: #ff6b08;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.42
+}
+
+.profession {px;
+  margin-left: 15px;
+}
+
+.skills-text {
+  color: #fff;
+}
+
+.photo {
+  width: 370px;
+}
+
+.about {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.profession {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 45px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 14px;
+  color: #595959;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  margin-top: 25px;
+}
+
+.about-me-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 55px;
+}
+
+.projects {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  color: #000000;
+}
+
+.projects-text {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+}
+
+.mini-title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  margin-top: 25px;
+}
+
+.company-name {
+  color: #ff6b08;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+}
+
+.duration {
+  font-size: 12px;
+  color: #a8a8a8;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  margin-top: 15px;
+}
+
+.divider {
+  color: #000000;
+}
+
+.specialty {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  margin-top: 15px;
+}
+
+.duties {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  margin-top: 15px;
+}
